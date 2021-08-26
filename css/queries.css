@@ -1,0 +1,31 @@
+
+@media screen and (max-width:320px) {
+}
+
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
+
+@media screen and (max-width:1024px) {
+	.wp3 { background-position: 50px 0; }
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; }
+}
+
+@media screen and (max-width:1280px) {
+	.wp3 { background-position: 50px 0; }
+}
+
+@media screen and (min-width:480px) and (max-width:991px) {
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wrapper { background: #f3f5f8; height: 540px; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
